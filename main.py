@@ -23,7 +23,7 @@ for csv_file in csv_files:
         .option("encoding", "cp1251") \
         .option("inferSchema", "true") \
         .csv(csv_file)
-
+# hi
     df.write \
         .option("batchsize", "10000") \
         .option("numPartitions", "4") \
